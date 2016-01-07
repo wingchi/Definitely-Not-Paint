@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var drawView: DrawView!
+    
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake {
+            drawView.lines = []
+            drawView.setNeedsDisplay()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

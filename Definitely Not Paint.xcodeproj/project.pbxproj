@@ -12,6 +12,8 @@
 		0CE7E93C1C3F01A700099C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7E93A1C3F01A700099C59 /* Main.storyboard */; };
 		0CE7E93E1C3F01A700099C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7E93D1C3F01A700099C59 /* Assets.xcassets */; };
 		0CE7E9411C3F01A700099C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7E93F1C3F01A700099C59 /* LaunchScreen.storyboard */; };
+		0CE7E94B1C3F0D3B00099C59 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E94A1C3F0D3B00099C59 /* Line.swift */; };
+		0CE7E94D1C3F0DA200099C59 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E94C1C3F0DA200099C59 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0CE7E93D1C3F01A700099C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CE7E9401C3F01A700099C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CE7E9421C3F01A700099C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE7E94A1C3F0D3B00099C59 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		0CE7E94C1C3F0DA200099C59 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		0CE7E9351C3F01A700099C59 /* Definitely Not Paint */ = {
 			isa = PBXGroup;
 			children = (
+				0CE7E94C1C3F0DA200099C59 /* DrawView.swift */,
+				0CE7E94A1C3F0D3B00099C59 /* Line.swift */,
 				0CE7E9361C3F01A700099C59 /* AppDelegate.swift */,
 				0CE7E9381C3F01A700099C59 /* ViewController.swift */,
 				0CE7E93A1C3F01A700099C59 /* Main.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE7E9391C3F01A700099C59 /* ViewController.swift in Sources */,
+				0CE7E94B1C3F0D3B00099C59 /* Line.swift in Sources */,
+				0CE7E94D1C3F0DA200099C59 /* DrawView.swift in Sources */,
 				0CE7E9371C3F01A700099C59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				0CE7E9471C3F01A700099C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
