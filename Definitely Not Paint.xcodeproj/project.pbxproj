@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5B51B51C49539B00FD1668 /* Definitely_Not_PaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B51B41C49539B00FD1668 /* Definitely_Not_PaintTests.swift */; };
 		0CE7E9371C3F01A700099C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E9361C3F01A700099C59 /* AppDelegate.swift */; };
 		0CE7E9391C3F01A700099C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E9381C3F01A700099C59 /* ViewController.swift */; };
 		0CE7E93C1C3F01A700099C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7E93A1C3F01A700099C59 /* Main.storyboard */; };
@@ -16,7 +17,20 @@
 		0CE7E94D1C3F0DA200099C59 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E94C1C3F0DA200099C59 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C5B51B71C49539B00FD1668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE7E92B1C3F01A700099C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE7E9321C3F01A700099C59;
+			remoteInfo = "Definitely Not Paint";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0C5B51B21C49539B00FD1668 /* Definitely Not PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Definitely Not PaintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5B51B41C49539B00FD1668 /* Definitely_Not_PaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitely_Not_PaintTests.swift; sourceTree = "<group>"; };
+		0C5B51B61C49539B00FD1668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE7E9331C3F01A700099C59 /* Definitely Not Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Definitely Not Paint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE7E9361C3F01A700099C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CE7E9381C3F01A700099C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C5B51AF1C49539B00FD1668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CE7E9301C3F01A700099C59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5B51B31C49539B00FD1668 /* Definitely Not PaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B51B41C49539B00FD1668 /* Definitely_Not_PaintTests.swift */,
+				0C5B51B61C49539B00FD1668 /* Info.plist */,
+			);
+			path = "Definitely Not PaintTests";
+			sourceTree = "<group>";
+		};
 		0CE7E92A1C3F01A700099C59 = {
 			isa = PBXGroup;
 			children = (
 				0CE7E9351C3F01A700099C59 /* Definitely Not Paint */,
+				0C5B51B31C49539B00FD1668 /* Definitely Not PaintTests */,
 				0CE7E9341C3F01A700099C59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0CE7E9331C3F01A700099C59 /* Definitely Not Paint.app */,
+				0C5B51B21C49539B00FD1668 /* Definitely Not PaintTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +105,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C5B51B11C49539B00FD1668 /* Definitely Not PaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5B51B91C49539B00FD1668 /* Build configuration list for PBXNativeTarget "Definitely Not PaintTests" */;
+			buildPhases = (
+				0C5B51AE1C49539B00FD1668 /* Sources */,
+				0C5B51AF1C49539B00FD1668 /* Frameworks */,
+				0C5B51B01C49539B00FD1668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5B51B81C49539B00FD1668 /* PBXTargetDependency */,
+			);
+			name = "Definitely Not PaintTests";
+			productName = "Definitely Not PaintTests";
+			productReference = 0C5B51B21C49539B00FD1668 /* Definitely Not PaintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0CE7E9321C3F01A700099C59 /* Definitely Not Paint */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE7E9451C3F01A700099C59 /* Build configuration list for PBXNativeTarget "Definitely Not Paint" */;
@@ -100,6 +150,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Intrepid Pursuits";
 				TargetAttributes = {
+					0C5B51B11C49539B00FD1668 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0CE7E9321C3F01A700099C59;
+					};
 					0CE7E9321C3F01A700099C59 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -119,11 +173,19 @@
 			projectRoot = "";
 			targets = (
 				0CE7E9321C3F01A700099C59 /* Definitely Not Paint */,
+				0C5B51B11C49539B00FD1668 /* Definitely Not PaintTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C5B51B01C49539B00FD1668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CE7E9311C3F01A700099C59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +199,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C5B51AE1C49539B00FD1668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5B51B51C49539B00FD1668 /* Definitely_Not_PaintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CE7E92F1C3F01A700099C59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +219,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5B51B81C49539B00FD1668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CE7E9321C3F01A700099C59 /* Definitely Not Paint */;
+			targetProxy = 0C5B51B71C49539B00FD1668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CE7E93A1C3F01A700099C59 /* Main.storyboard */ = {
@@ -170,6 +248,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C5B51BA1C49539B00FD1668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Definitely Not PaintTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wingchi.Definitely-Not-PaintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Definitely Not Paint.app/Definitely Not Paint";
+			};
+			name = Debug;
+		};
+		0C5B51BB1C49539B00FD1668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Definitely Not PaintTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wingchi.Definitely-Not-PaintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Definitely Not Paint.app/Definitely Not Paint";
+			};
+			name = Release;
+		};
 		0CE7E9431C3F01A700099C59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -278,6 +380,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C5B51B91C49539B00FD1668 /* Build configuration list for PBXNativeTarget "Definitely Not PaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5B51BA1C49539B00FD1668 /* Debug */,
+				0C5B51BB1C49539B00FD1668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0CE7E92E1C3F01A700099C59 /* Build configuration list for PBXProject "Definitely Not Paint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
